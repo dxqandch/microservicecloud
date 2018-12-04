@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.imooc.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.213 s <<< FAILURE! - in com.imooc.AppTest
+shouldAnswerWithTrue(com.imooc.AppTest)  Time elapsed: 0.008 s  <<< ERROR!
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.imooc.AppTest': Unsatisfied dependency expressed through field 'deptDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.imooc.dao.DeptDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.imooc.dao.DeptDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+
