@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloud-api" />
+        <module name="microservicecloud-cofig-dept-client-8001" />
         <module name="microservicecloud-config-3344" />
         <module name="microservicecloud-config-client-3355" />
         <module name="microservicecloud-config-eureka-client-7001" />
